@@ -1,0 +1,21 @@
+﻿<Window x:Class="Ejercicio3_DINT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio3_DINT"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Text="Opacidad" FontSize="20" Margin="593,68,0,0"/>
+        <RadioButton x:Name="bajaRadioButton" Click="BajaRadioButton_Click" Content="Baja" HorizontalAlignment="Right" VerticalAlignment="Top" GroupName="Opacidad" Margin="0,187,158,0"/>
+        <RadioButton x:Name="mediaRadioButton" Click="MediaRadioButton_Click" Content="Media" HorizontalAlignment="Right" VerticalAlignment="Top" GroupName="Opacidad" Margin="0,141,147,0" Height="17"/>
+        <RadioButton x:Name="altaRadioButton" Click="AltaRadioButton_Click" Content="Alta" HorizontalAlignment="Right" VerticalAlignment="Top" GroupName="Opacidad" IsChecked="True" Margin="0,109,159,0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Text="Ajuste" FontSize="20" Margin="593,218,0,0"/>
+        <RadioButton x:Name="fillRadioButton" Click="FillRadioButton_Click" Content="Relleno (Fill)" HorizontalAlignment="Right" VerticalAlignment="Top" GroupName="Ajuste" IsChecked="True" Margin="0,260,116,0"/>
+        <RadioButton x:Name="uniformeRadioButton" Click="UniformeRadioButton_Click" Content="Uniforme (Uniform)" HorizontalAlignment="Right" VerticalAlignment="Top" GroupName="Ajuste" Margin="0,290,77,0"/>
+        <RadioButton x:Name="rellenoRadioButton" Click="RellenoRadioButton_Click" Content="Relleno Uniforme (UniformToFill)" HorizontalAlignment="Right" VerticalAlignment="Top" GroupName="Ajuste" Margin="0,320,8,0"/>
+        <RadioButton x:Name="sinAjusteRadioButton" Click="SinAjusteRadioButton_Click" Content="Sin Ajuste (None)" HorizontalAlignment="Right" VerticalAlignment="Top" GroupName="Ajuste" Margin="0,352,88,0"/>
+    </Grid>
+</Window>
